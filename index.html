@@ -598,59 +598,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<p>Mauris euismod ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor pulvinar ornare. Donec gravida. </p>
 			</div>
 			<div class="container">
-			<div class="row">
-<div id="myCarousel1" class="carousel">
+				<div class="row">
+					<div id="myCarousel1" class="carousel">
   
-  <div class="carousel-inner">
-    <div class="item active">
-      <div class="col-xs-4"><a href="#"><img src="images/placehold/book1.png" class="img-responsive"></a><div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-      </div></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-4"><a href="#"><img src="images/placehold/book2.png" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-4"><a href="#"><img src="images/placehold/book3.png" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-4"><a href="#"><img src="images/placehold/book4.png" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-4"><a href="#"><img src="images/placehold/book5.png" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-4"><a href="#"><img src="images/placehold/book6.png" class="img-responsive"></a></div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<script type="text/javascript">
-(function(){
-$('#myCarousel1').carousel({
-  interval: 1000
-})
-
-$('#myCarousel1 .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  if (next.next().length>0) {
-    next.next().children(':first-child').clone().appendTo($(this));
-  }
-  else {
-    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-  }
-});})();
-    </script>
-
+  						<div class="carousel-inner">
+    						<div class="item active">
+      							<div class="col-xs-4">
+      								<a href="#"><img src="images/placehold/book1.png" class="img-responsive"></a>
+      								<div class="carousel-caption">
+        								<h3>Chania</h3>
+        								<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      								</div>
+      							</div>
+    						</div>
+						    <div class="item">
+						      	<div class="col-xs-4">
+						      		<a href="#"><img src="images/placehold/book2.png" class="img-responsive"></a>
+						      	</div>
+						    </div>
+						    <div class="item">
+						      <div class="col-xs-4"><a href="#"><img src="images/placehold/book3.png" class="img-responsive"></a></div>
+						    </div>
+						    <div class="item">
+						      <div class="col-xs-4"><a href="#"><img src="images/placehold/book4.png" class="img-responsive"></a></div>
+						    </div>
+						    <div class="item">
+						      <div class="col-xs-4"><a href="#"><img src="images/placehold/book5.png" class="img-responsive"></a></div>
+						    </div>
+						    <div class="item">
+						      <div class="col-xs-4"><a href="#"><img src="images/placehold/book6.png" class="img-responsive"></a></div>
+						    </div>
+						</div>
+					</div>
+                </div>
+            </div>
 		</div>
 		<!-- //End-gallery-->
+
+
 		<!--start-map-->
 		<div id="contact" class="section_spacer">
 			<div class="container-fluid" style="padding:0">
@@ -776,6 +761,28 @@ google.maps.event.addDomListener(window, 'load', initialize);
         });
 	})();
 </script>
+
+<script type="text/javascript">
+(function(){
+$('#myCarousel1').carousel({
+  interval: 1000
+})
+
+$('#myCarousel1 .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  }
+  else {
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
+});})();
+    </script>
 
 	</body>
 </html>
