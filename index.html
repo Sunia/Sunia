@@ -381,56 +381,56 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     		</a>                                
  											-->
  										</div>
-                                </div>
+                                    </div>
 
-                            	<div class="col-sm-4" id="carousel-text">
-                                    <h2>Slider One</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
+                            	    <div class="col-sm-4" id="carousel-text">
+                                    	<h2>Slider One</h2>
+                                    	<p>Lorem Ipsum Dolor</p>
+                                    	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                	</div>
 
-                            <div id="slide-content" style="display: none;">
-                                <div id="slide-content-0">
-                                    <h2>Slider One</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
+                            		<div id="slide-content" style="display: none;">
+                                		<div id="slide-content-0">
+                                    		<h2>Slider One</h2>
+                                    		<p>Lorem Ipsum Dolor</p>
+                                    		<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                		</div>
 
-                                <div id="slide-content-1">
-                                    <h2>Slider Two</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
+                                	<div id="slide-content-1">
+                                    	<h2>Slider Two</h2>
+                                    	<p>Lorem Ipsum Dolor</p>
+                                    	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                	</div>
 
-                                <div id="slide-content-2">
-                                    <h2>Slider Three</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
+                                	<div id="slide-content-2">
+                                    	<h2>Slider Three</h2>
+                                    	<p>Lorem Ipsum Dolor</p>
+                                    	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                	</div>
 
-                                <div id="slide-content-3">
-                                    <h2>Slider Four</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
+                                	<div id="slide-content-3">
+                                    	<h2>Slider Four</h2>
+                                    	<p>Lorem Ipsum Dolor</p>
+                                    	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                	</div>
 
-                                <div id="slide-content-4">
-                                    <h2>Slider Five</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
+                                	<div id="slide-content-4">
+                                    	<h2>Slider Five</h2>
+                                    	<p>Lorem Ipsum Dolor</p>
+                                    	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                	</div>
 
-                                <div id="slide-content-5">
-                                    <h2>Slider Six</h2>
-                                    <p>Lorem Ipsum Dolor</p>
-                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/Slider-->
+                                	<div id="slide-content-5">
+                                    	<h2>Slider Six</h2>
+                                    	<p>Lorem Ipsum Dolor</p>
+                                    	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                	</div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div><!--/Slider-->
 
-                <div class="row hidden-xs" id="slider-thumbs">
+                	<div class="row hidden-xs" id="slider-thumbs">
                         <!-- Bottom switcher of slider -->
                         <ul class="hide-bullets">
                             <li class="col-sm-2">
@@ -457,39 +457,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <a class="thumbnail" id="carousel-selector-5"><img src="images/placehold/thumb6.png"></a>
                             </li>
                         </ul>                 
-                </div>
-        </div>
-</div>
-<style type="text/css">
-	
-    .hide-bullets {
-list-style:none;
-margin-left: -40px;
-margin-top:20px;
-}
-    
-</style>
-<script type="text/javascript">
-	(function(){
-        $('#myCarousel').carousel({
-            interval: 5000
-        });
-        $('#carousel-text').html($('#slide-content-0').html());
-        //Handles the carousel thumbnails
-       $('[id^=carousel-selector-]').click( function(){
-            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
-            var id = parseInt(id);
-            $('#myCarousel').carousel(id);
-        });
-        // When the carousel slides, auto update the text
-        $('#myCarousel').on('slid.bs.carousel', function (e) {
-			var id = $('.item.active').data('slide-number');
-			$('#carousel-text').html($('#slide-content-'+id).html());
-        });
-	})();
-</script>
+                	</div>
+        		</div>
+			</div>
 		</div>
 		<!--//End-Share instantly-->
+		<!-- Carousel End -->
+
 		<!--start-event-->
 		<div id="events" class="section_spacer">
 			<div class="container">
@@ -778,6 +752,28 @@ marker = new google.maps.Marker({
         }
 google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
+
+
+<script type="text/javascript">
+	(function(){
+        $('#myCarousel').carousel({
+            interval: 5000
+        });
+        $('#carousel-text').html($('#slide-content-0').html());
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+			var id = $('.item.active').data('slide-number');
+			$('#carousel-text').html($('#slide-content-'+id).html());
+        });
+	})();
+</script>
+
 	</body>
 </html>
 
