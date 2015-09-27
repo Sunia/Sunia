@@ -688,108 +688,111 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--//End-footer-->
+	<!--//End-container-->
+    </body>
 
-			<!-- start-smoth-scrolling-->
-			<script type="text/javascript">
-				$(function() {
-				  $('a[href*=#]:not([href=#])').click(function() {
-				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			
-				      var target = $(this.hash);
-				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				      if (target.length) {
-				        $('html,body').animate({
-				          scrollTop: target.offset().top
-				        }, 1000);
-				        return false;
-				      }
-				    }
-				  });
-					});
-			</script>
-			<!-- //End-smoth-scrolling-->
-		</div>
-		<!--//End-footer-->
-		<!--//End-conatiner-->
-		<script type="text/javascript">
-		/*for responsive video */
-			!function(e,t){for(var i=t.getElementsByTagName("iframe"),a=0;a<i.length;a++){var o=i[a],l=/www.youtube.com|player.vimeo.com/;if(o.src.search(l)>0){var s=o.height/o.width*100;o.style.position="absolute",o.style.top="0",o.style.left="0",o.width="100%",o.height="100%";var r=t.createElement("div");r.className="fluid-vids",r.style.width="100%",r.style.position="relative",r.style.paddingTop=s+"%";var d=o.parentNode;d.insertBefore(r,o),r.appendChild(o)}}}(window,document);
+
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript">
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+			});
+	</script>
+	<!-- //End-smoth-scrolling-->
+	<script type="text/javascript">
+	/*for responsive video */
+		!function(e,t){for(var i=t.getElementsByTagName("iframe"),a=0;a<i.length;a++){var o=i[a],l=/www.youtube.com|player.vimeo.com/;if(o.src.search(l)>0){var s=o.height/o.width*100;o.style.position="absolute",o.style.top="0",o.style.left="0",o.width="100%",o.height="100%";var r=t.createElement("div");r.className="fluid-vids",r.style.width="100%",r.style.position="relative",r.style.paddingTop=s+"%";var d=o.parentNode;d.insertBefore(r,o),r.appendChild(o)}}}(window,document);
+
 		/*for responsive video end*/
 		/*for map */
-function initialize() {
-            var mapOptions = {
-                center: new google.maps.LatLng(28.613957, 77.208514),
-                zoom: 16,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                scrollwheel: true,
-                draggable: true,
-                panControl: true,
-                zoomControl: true,
-                mapTypeControl: true,
-                scaleControl: true,
-                streetViewControl: true,
-                overviewMapControl: true,
-                rotateControl: true,
-            };
-var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-marker = new google.maps.Marker({
-            map: map,
-            position: new google.maps.LatLng(28.613957, 77.208514)
-        });
-        infowindow = new google.maps.InfoWindow({
-            content: "<b>Shri Raj Mata jhande Wala Mandir</b><br/> New Delhi, India 110032"
-        });
-        google.maps.event.addListener(marker, "click", function() {
-            infowindow.open(map, marker);
-        });
-        infowindow.open(map, marker);
-        }
-google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
+		function initialize() {
+		            var mapOptions = {
+		                center: new google.maps.LatLng(28.613957, 77.208514),
+		                zoom: 16,
+		                mapTypeId: google.maps.MapTypeId.ROADMAP,
+		                scrollwheel: true,
+		                draggable: true,
+		                panControl: true,
+		                zoomControl: true,
+		                mapTypeControl: true,
+		                scaleControl: true,
+		                streetViewControl: true,
+		                overviewMapControl: true,
+		                rotateControl: true,
+		            };
+		var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+		marker = new google.maps.Marker({
+		            map: map,
+		            position: new google.maps.LatLng(28.613957, 77.208514)
+		        });
+		        infowindow = new google.maps.InfoWindow({
+		            content: "<b>Shri Raj Mata jhande Wala Mandir</b><br/> New Delhi, India 110032"
+		        });
+		        google.maps.event.addListener(marker, "click", function() {
+		            infowindow.open(map, marker);
+		        });
+		        infowindow.open(map, marker);
+		        }
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 
 
-<script type="text/javascript">
-	(function(){
-        $('#myCarousel').carousel({
-            interval: 5000
-        });
-        $('#carousel-text').html($('#slide-content-0').html());
-        //Handles the carousel thumbnails
-       $('[id^=carousel-selector-]').click( function(){
-            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
-            var id = parseInt(id);
-            $('#myCarousel').carousel(id);
-        });
-        // When the carousel slides, auto update the text
-        $('#myCarousel').on('slid.bs.carousel', function (e) {
-			var id = $('.item.active').data('slide-number');
-			$('#carousel-text').html($('#slide-content-'+id).html());
-        });
-	})();
-</script>
+	<script type="text/javascript">
+		(function(){
+	        $('#myCarousel').carousel({
+	            interval: 5000
+	        });
+	        $('#carousel-text').html($('#slide-content-0').html());
+	        //Handles the carousel thumbnails
+	       $('[id^=carousel-selector-]').click( function(){
+	            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+	            var id = parseInt(id);
+	            $('#myCarousel').carousel(id);
+	        });
+	        // When the carousel slides, auto update the text
+	        $('#myCarousel').on('slid.bs.carousel', function (e) {
+				var id = $('.item.active').data('slide-number');
+				$('#carousel-text').html($('#slide-content-'+id).html());
+	        });
+		})();
+	</script>
 
-<script type="text/javascript">
-(function(){
-$('#myCarousel1').carousel({
-  interval: 1000
-})
+	<script type="text/javascript">
+		(function(){
+		$('#myCarousel1').carousel({
+		  interval: 1000
+		})
 
-$('#myCarousel1 .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  if (next.next().length>0) {
-    next.next().children(':first-child').clone().appendTo($(this));
-  }
-  else {
-    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-  }
-});})();
-    </script>
+		$('#myCarousel1 .item').each(function(){
+		  var next = $(this).next();
+		  if (!next.length) {
+		    next = $(this).siblings(':first');
+		  }
+		  next.children(':first-child').clone().appendTo($(this));
+		  
+		  if (next.next().length>0) {
+		    next.next().children(':first-child').clone().appendTo($(this));
+		  }
+		  else {
+		    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+		  }
+		});})();
+	</script>
 
-	</body>
+
 </html>
 
