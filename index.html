@@ -639,50 +639,56 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!--start-map-->
 		<div id="contact" class="section_spacer">
 			<div class="container-fluid" style="padding:0">
-				<h2 class="english">FIND <span style="color: #da5455;">US</span></h2>
-<div id="map-canvas"></div>
+				<h2 class="english">FIND 
+					<span style="color: #da5455;">US</span>
+				</h2>
+				<div id="map-canvas"></div>
     
-<!--Google Maps API-->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+				<!--Google Maps API-->
+				<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
 						<div id="divMain">
-    <h3 class="english">Contact Us</h3>
-    <h3 style="color:#FF6633;"></h3>
-    <hr>
-    <!--Start Contact form -->                                                      
-    <form name="enq" method="post" action="email/" onsubmit="return validation();">
-        <fieldset>
-            <input type="text" name="name" id="name" value="" class="input-block-level contact_input" placeholder="Name">
-            <input type="text" name="email" id="email" value="" class="input-block-level contact_input" placeholder="Email">
-            <textarea rows="11" name="message" id="message" class="input-block-level contact_input" style="height:auto;" placeholder="Comments"></textarea>
-            <div class="actions">
-                <input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull-right" title="Click here to submit your message!">
-            </div>
-        </fieldset>
-    </form>                  
-<!--End Contact form -->                                             
-</div>
+    						<h3 class="english">Contact Us</h3>
+    						<h3 style="color:#FF6633;"></h3>
+    						<hr>
+
+    						<!--Start Contact form -->                                                      
+						    <form name="enq" method="post" action="email/" onsubmit="return validation();">
+        						<fieldset>
+	            					<input type="text" name="name" id="name" value="" class="input-block-level contact_input" placeholder="Name">
+	            					<input type="text" name="email" id="email" value="" class="input-block-level contact_input" placeholder="Email">
+	            					<textarea rows="11" name="message" id="message" class="input-block-level contact_input" style="height:auto;" placeholder="Comments"></textarea>
+
+						            <div class="actions">
+	                					<input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull-right" title="Click here to submit your message!">
+	            					</div>
+        						</fieldset>
+						    </form>                  
+							<!--End Contact form -->                                             
+						</div>
 					</div>
+
 					<div class="col-md-4">
 						<div class="sidebox">
                         <h3 class="sidebox-title">Contact Information</h3>
-                    <p>
+	                    <p>
                         </p><address><strong>Your Company, Inc.</strong><br>
                         Address<br>
                         City, State, Zip<br>
                         <abbr title="Phone">P:</abbr> (123) 456-7890</address> 
                         <address>  <strong>Email</strong><br>
                         <a href="mailto:#">first.last@gmail.com</a></address>  
-                    <p></p>     
-                     
+	                    <p></p>     
+                
                     </div>
-					</div>
 				</div>
 			</div>
-			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
 			<!-- start-smoth-scrolling-->
 			<script type="text/javascript">
 				$(function() {
