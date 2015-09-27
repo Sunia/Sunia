@@ -1,0 +1,758 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ama Bootstarp Website Template | Home :: w3layouts</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+   		<link rel="stylesheet" href="css/stylesheet.css">
+   		<link rel="stylesheet" href="css/style.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		 <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.3.2.0.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--font-Awesome-->
+   		<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+   		<!--font-Awesome-->
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=kruti:600,700,800' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+		<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!--//End-top-nav-script-->
+		<!--start-slider-script-->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--//End-slider-script-->
+			<!-- Slider -->
+	 <link rel="stylesheet" href="css/slider.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider1').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+		</head>
+	<body>
+		<!--start-top-header-->
+		<div class="container-fluid" style="background: #c94032;" id="custom-header">
+			<div class="container">
+				<div class="text-center"><span class="english">||</span> t; nsok <span class="english">||</span></div>
+				<div style="display: table;margin: 0 auto;">Jh jktekrk >aMs okyk eafnj <span class="english" style="font-size:0.75em">(</span>jftB <span class="english" style="font-size:0.75em">)</span></div>
+			</div>
+		</div>
+		<div id="home" class="top-header" style="background: #c94032;">
+		<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			    <div class="container-fluid">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="images/slide1.png" alt="">
+			           <div class="caption text-center" style="color: #FFF;font-weight: 600;width:100%;padding-left:30%;bottom:20%;">^^nwljs ds /keZ dk vknj djks<br>vius /keZ dk ikyu djks**
+			          		</div>
+			        </li>
+			      </ul>
+			      </div>
+			    </div>
+			    <div class="clear"> </div>
+			<!-- //End-slider-->
+		<!--start-conatiner-->
+		<div class="container">
+			<!--start-header-->
+			<div class="header">
+				<div class="container">
+				<div class="logo">
+				</div>
+				<!--start-top-nav-->
+				 <nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active english"><a href="#" class="scroll">Home</a></li>
+						<li class="page-scroll english"><a href="#aboutUs" class="scroll">About Us</a></li>
+						<li class="page-scroll english"><a href="#history" class="scroll">History</a></li>
+						<li class="page-scroll english"><a href="#news" class="scroll">News</a></li>
+						<li class="page-scroll english"><a href="#activities" class="scroll">Activities</a></li>
+						<li class="page-scroll english" class="page-scroll"><a href="#events" class="scroll">Events</a></li>
+						<li class="page-scroll english"><a href="#books" class="scroll">Books</a></li>
+						<li class="page-scroll english"><a href="#contact" class="scroll">Contact Us</a></li>
+					</ul>
+					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+				  </nav>
+				
+				<div class="clear"> </div>
+			</div>
+			<!--//End-header-->
+			</div>
+			<!--start-top-header-->
+		</div>
+		</div>
+		<!--start-features-->
+		<div id="aboutUs" class="section_spacer text-center">
+			<div class="container">
+				<h2 style="font-family:kruti;padding-bottom:0;">vkt dk <span style="color: #da5455;">fopkj</span></h2>
+  <div class='row'>
+    <div class='col-xs-12'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-xs-12">
+                  <p class="text-center" style="font-family: 'kruti';font-weight: 600;">fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj fopkj </p>
+                  <small class="text-right" style="font-family: 'kruti';font-weight: 600;">Someone famous</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+		    <!-- Quote 1  ended-->
+        </div>
+      </div>                          
+    </div>
+  </div>
+				<!-- start-features-grids-->
+					<div class="features-grids text-center">
+						<div class="col-md-4 features-grid">
+							<span>
+								<img src="images/1.jpg" class="img-circle img-responsive">
+							</span>
+							<h3 style="font-family: 'kruti';">czgeyhu Jh Jh 108<br>jkt ekrk th egkjkt</h3>
+						</div>
+						<div class="col-md-4 features-grid">
+							<span>
+								<img src="images/lamp.png" class="img-circle img-responsive" style="border: none;">
+							</span>
+						</div>
+						<div class="col-md-4 features-grid">
+							<span>
+								<img src="images/5.jpg" class="img-circle img-responsive">
+							</span>
+							<h3 style="font-family: 'kruti';">Lokeh Jh jkts'ojkuan <br> ^^jktxq#** th egkjkt</h3>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				<!-- //End-features-grids-->
+			</div>
+		</div>
+		<!--//End-features-->
+		<!--start-history-->
+		<div id="history" class="section_spacer darker-box">
+			<div class="container">
+                <h1 class="red-heading english" style="margin-bottom: 20px;">A Brief History of Our Temple</h1>
+                <div class="row">
+						<div class="col-md-7 history-grid">
+								<p style="margin-bottom: 1em; font-weight: 600;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+								<div class="row">
+									<div class="col-md-3" style="text-align: center;">
+										<img src="images/home-1.png">
+									</div>
+									<div class="col-md-6">
+										<p style="margin-bottom: 1em; font-weight: 600;">Sed ut perspiciatis undenatus error sit voluptatem accusantium dolore ladantium, toteriam, eaque ipsa quae ab illo inventore veritatis et quasi archite vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+									</div>
+									<div class="col-md-3" style="text-align: center;margin-bottom: 20px;">
+										<img src="images/watch-video.png">
+									</div>
+								</div>
+							</div>
+						<div class="col-md-5 history-grid">
+							<div class="video-frame">
+					        	<iframe src="https://www.youtube.com/embed/mdSbxqGePOA" width="560" height="315" frameborder="0"></iframe>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+			</div>
+		</div>
+		<!--//End-history-->
+
+		<div id="news" class="section_spacer">
+			<div class="container">
+			<h2 class="english">LATEST <span style="color: #da5455;">NEWS</span></h2>
+				<div class="row">
+					<div class="col-md-6">
+					<div class="recent_posts_square">
+            <div class="recent_posts_square_date">
+                <a href="#" target="_self">24
+                    <span class="d_month">Aug</span>
+                    <span class="d_year">2014</span>
+                </a>
+            </div>
+            <div class="recent_posts_square_content">
+                <div class="recent_posts_square_title">
+                    <a href="#" target="_self">Utsit amet risus acur venenat</a>
+                </div>
+                <p>Polint stdunt dolor sit amet constetur adipisicing elit sed do eiusmod Polint stdunt dolor sit amet constetur</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </div>
+
+        <a href="#openModal" class="english">Open Modal</a>
+
+        <div id="openModal" class="modalDialog">
+	  <div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2 class="english">Modal Box</h2>
+		<p class="english">This is a sample modal box that can be created using the powers of CSS3.</p>
+		
+	  </div>
+        </div>
+					<div class="col-md-6">
+					<div class="recent_posts_square">
+            <div class="recent_posts_square_date">
+                <a href="#" target="_self">24
+                    <span class="d_month">Aug</span>
+                    <span class="d_year">2014</span>
+                </a>
+            </div>
+            <div class="recent_posts_square_content">
+                <div class="recent_posts_square_title">
+                    <a href="#" target="_self">Utsit amet risus acur venenat</a>
+                </div>
+                <p>Polint stdunt dolor sit amet constetur adipisicing elit sed do eiusmod Polint stdunt dolor sit amet constetur</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </div>
+</div>
+
+				<div class="row">
+					<div class="col-md-6">
+					<div class="recent_posts_square">
+            <div class="recent_posts_square_date">
+                <a href="#" target="_self">24
+                    <span class="d_month">Aug</span>
+                    <span class="d_year">2014</span>
+                </a>
+            </div>
+            <div class="recent_posts_square_content">
+                <div class="recent_posts_square_title">
+                    <a href="#" target="_self">Utsit amet risus acur venenat</a>
+                </div>
+                <p>Polint stdunt dolor sit amet constetur adipisicing elit sed do eiusmod Polint stdunt dolor sit amet constetur</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </div>
+					<div class="col-md-6">
+					<div class="recent_posts_square">
+            <div class="recent_posts_square_date">
+                <a href="#" target="_self">24
+                    <span class="d_month">Aug</span>
+                    <span class="d_year">2014</span>
+                </a>
+            </div>
+            <div class="recent_posts_square_content">
+                <div class="recent_posts_square_title">
+                    <a href="#" target="_self">Utsit amet risus acur venenat</a>
+                </div>
+                <p>Polint stdunt dolor sit amet constetur adipisicing elit sed do eiusmod Polint stdunt dolor sit amet constetur</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </div>
+</div>
+			</div>
+		</div>
+		<!--//End-map-->
+
+		<!--start-Share instantly-->
+		<div id="activities" class="section_spacer Share-instantly darker-box">
+<div class="container">
+<h2 class="english">OUR <span style="color: #da5455;">ACTIVITIES</span></h2>
+        <div id="main_area">
+                <!-- Slider -->
+                <div class="row">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+                            <div class="col-sm-8" id="carousel-bounding-box">
+                                <div class="carousel slide" id="myCarousel">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="active item" data-slide-number="0">
+                                        <img src="images/placehold/activitiy1.png"></div>
+
+                                        <div class="item" data-slide-number="1">
+                                        <img src="images/placehold/activitiy2.png"></div>
+
+                                        <div class="item" data-slide-number="2">
+                                        <img src="images/placehold/activitiy3.png"></div>
+
+                                        <div class="item" data-slide-number="3">
+                                        <img src="images/placehold/activitiy4.png"></div>
+
+                                        <div class="item" data-slide-number="4">
+                                        <img src="images/placehold/activitiy5.png"></div>
+
+                                        <div class="item" data-slide-number="5">
+                                        <img src="images/placehold/activitiy6.png"></div>
+                                    </div><!-- Carousel nav -->
+<!--                                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>                         
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>                         
+                                    </a>                                
+ -->                                    </div>
+                            </div>
+
+                            <div class="col-sm-4" id="carousel-text">
+                                    <h2>Slider One</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+
+                            <div id="slide-content" style="display: none;">
+                                <div id="slide-content-0">
+                                    <h2>Slider One</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+
+                                <div id="slide-content-1">
+                                    <h2>Slider Two</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+
+                                <div id="slide-content-2">
+                                    <h2>Slider Three</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+
+                                <div id="slide-content-3">
+                                    <h2>Slider Four</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+
+                                <div id="slide-content-4">
+                                    <h2>Slider Five</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+
+                                <div id="slide-content-5">
+                                    <h2>Slider Six</h2>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/Slider-->
+
+                <div class="row hidden-xs" id="slider-thumbs">
+                        <!-- Bottom switcher of slider -->
+                        <ul class="hide-bullets">
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-0"><img src="images/placehold/thumb1.png"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-1"><img src="images/placehold/thumb2.png"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-2"><img src="images/placehold/thumb3.png"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-3"><img src="images/placehold/thumb4.png"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-4"><img src="images/placehold/thumb5.png"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-5"><img src="images/placehold/thumb6.png"></a>
+                            </li>
+                        </ul>                 
+                </div>
+        </div>
+</div>
+<style type="text/css">
+	
+    .hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+    
+</style>
+<script type="text/javascript">
+	(function(){
+        $('#myCarousel').carousel({
+            interval: 5000
+        });
+        $('#carousel-text').html($('#slide-content-0').html());
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+			var id = $('.item.active').data('slide-number');
+			$('#carousel-text').html($('#slide-content-'+id).html());
+        });
+	})();
+</script>
+		</div>
+		<!--//End-Share instantly-->
+		<!--start-event-->
+		<div id="events" class="section_spacer">
+			<div class="container">
+			<h2 class="english" style="padding-bottom:0.5em;">UPCOMING <span style="color: #da5455;">EVENTS</span></h2>
+			<div class="row">
+				<div class="col-md-4" style="padding: 1em 0;">
+					<div class="swm_event_box">
+    <div class="swm_evt_date_img">
+        <div class="swm_evt_date">
+            <span class="swm_evt_date_day"> 28 </span>
+            <span class="swm_evt_date_month"> Sep </span>
+            <span class="swm_evt_date_year"> 2015 </span>
+        </div>
+        <div class="swm_evt_img">
+            <img width="230" height="120" class="attachment-events wp-post-image" alt="events1" src="images/events1-230x120.jpg">
+            </div>
+        </div>
+		<div class="clearfix"> </div>
+        <div class="swm_evt_contet">
+            <div class="swm_evt_title">
+                <a href="#" title="">Quisque neceros vitae mase</a>
+            </div>
+            <div class="swm_evt_desc">
+                <p>Nullas tempus neque massa id mollis neque fesrli convallis ut. Morbi estr velit tincidunt quis felis etv consequat mollis nibhar. Aliquam porttitor</p>
+                <p class="recent_events_read_more_link">
+                    <a href="#" target="_self">Read more 
+                    </a>
+                </p>
+            </div>
+            <div class="swm_evt_meta_venue">
+                <span class="adr">
+                    <span class="street-address">5, Station Road</span>
+                    <br>
+                        <span class="locality">California</span>
+                        <span class="delimiter">,</span>
+                        <abbr class="region tribe-events-abbr" title="California">CA</abbr>
+                        <span class="postal-code">90013</span>
+                        <span class="country-name">United States</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+				</div>
+				<div class="col-md-4" style="padding: 1em 0;">
+					<div class="swm_event_box">
+    <div class="swm_evt_date_img">
+        <div class="swm_evt_date">
+            <span class="swm_evt_date_day"> 28 </span>
+            <span class="swm_evt_date_month"> Sep </span>
+            <span class="swm_evt_date_year"> 2015 </span>
+        </div>
+        <div class="swm_evt_img">
+            <img width="230" height="120" class="attachment-events wp-post-image" alt="events1" src="images/events2-230x120.jpg">
+            </div>
+        </div>
+		<div class="clearfix"> </div>
+        <div class="swm_evt_contet">
+            <div class="swm_evt_title">
+                <a href="#" title="">Quisque neceros vitae mase</a>
+            </div>
+            <div class="swm_evt_desc">
+                <p>Nullas tempus neque massa id mollis neque fesrli convallis ut. Morbi estr velit tincidunt quis felis etv consequat mollis nibhar. Aliquam porttitor</p>
+                <p class="recent_events_read_more_link">
+                    <a href="#" target="_self">Read more 
+                    </a>
+                </p>
+            </div>
+            <div class="swm_evt_meta_venue">
+                <span class="adr">
+                    <span class="street-address">5, Station Road</span>
+                    <br>
+                        <span class="locality">California</span>
+                        <span class="delimiter">,</span>
+                        <abbr class="region tribe-events-abbr" title="California">CA</abbr>
+                        <span class="postal-code">90013</span>
+                        <span class="country-name">United States</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+				</div>
+				<div class="col-md-4" style="padding: 1em 0;">
+					<div class="swm_event_box">
+    <div class="swm_evt_date_img">
+        <div class="swm_evt_date">
+            <span class="swm_evt_date_day"> 28 </span>
+            <span class="swm_evt_date_month"> Sep </span>
+            <span class="swm_evt_date_year"> 2015 </span>
+        </div>
+        <div class="swm_evt_img">
+            <img width="230" height="120" class="attachment-events wp-post-image" alt="events1" src="images/events3-230x120.jpg">
+            </div>
+        </div>
+		<div class="clearfix"> </div>
+        <div class="swm_evt_contet">
+            <div class="swm_evt_title">
+                <a href="#" title="">Quisque neceros vitae mase</a>
+            </div>
+            <div class="swm_evt_desc">
+                <p>Nullas tempus neque massa id mollis neque fesrli convallis ut. Morbi estr velit tincidunt quis felis etv consequat mollis nibhar. Aliquam porttitor</p>
+                <p class="recent_events_read_more_link">
+                    <a href="#" target="_self">Read more 
+                    </a>
+                </p>
+            </div>
+            <div class="swm_evt_meta_venue">
+                <span class="adr">
+                    <span class="street-address">5, Station Road</span>
+                    <br>
+                        <span class="locality">California</span>
+                        <span class="delimiter">,</span>
+                        <abbr class="region tribe-events-abbr" title="California">CA</abbr>
+                        <span class="postal-code">90013</span>
+                        <span class="country-name">United States</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!--//End-event-->
+
+		<!-- start-gallery-->
+		<div id="books" class="section_spacer darker-box">
+			<div class="container">
+				<h2 class="english">OUR <span style="color: #da5455;">BOOKS</span></h2>
+				<p>Mauris euismod ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor pulvinar ornare. Donec gravida. </p>
+			</div>
+			<div class="container">
+			<div class="row">
+<div id="myCarousel1" class="carousel">
+  
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="col-xs-4"><a href="#"><img src="images/placehold/book1.png" class="img-responsive"></a><div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div></div>
+    </div>
+    <div class="item">
+      <div class="col-xs-4"><a href="#"><img src="images/placehold/book2.png" class="img-responsive"></a></div>
+    </div>
+    <div class="item">
+      <div class="col-xs-4"><a href="#"><img src="images/placehold/book3.png" class="img-responsive"></a></div>
+    </div>
+    <div class="item">
+      <div class="col-xs-4"><a href="#"><img src="images/placehold/book4.png" class="img-responsive"></a></div>
+    </div>
+    <div class="item">
+      <div class="col-xs-4"><a href="#"><img src="images/placehold/book5.png" class="img-responsive"></a></div>
+    </div>
+    <div class="item">
+      <div class="col-xs-4"><a href="#"><img src="images/placehold/book6.png" class="img-responsive"></a></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+(function(){
+$('#myCarousel1').carousel({
+  interval: 1000
+})
+
+$('#myCarousel1 .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  }
+  else {
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
+});})();
+    </script>
+
+		</div>
+		<!-- //End-gallery-->
+		<!--start-map-->
+		<div id="contact" class="section_spacer">
+			<div class="container-fluid" style="padding:0">
+				<h2 class="english">FIND <span style="color: #da5455;">US</span></h2>
+<div id="map-canvas"></div>
+    
+<!--Google Maps API-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div id="divMain">
+    <h3 class="english">Contact Us</h3>
+    <h3 style="color:#FF6633;"></h3>
+    <hr>
+    <!--Start Contact form -->                                                      
+    <form name="enq" method="post" action="email/" onsubmit="return validation();">
+        <fieldset>
+            <input type="text" name="name" id="name" value="" class="input-block-level contact_input" placeholder="Name">
+            <input type="text" name="email" id="email" value="" class="input-block-level contact_input" placeholder="Email">
+            <textarea rows="11" name="message" id="message" class="input-block-level contact_input" style="height:auto;" placeholder="Comments"></textarea>
+            <div class="actions">
+                <input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull-right" title="Click here to submit your message!">
+            </div>
+        </fieldset>
+    </form>                  
+<!--End Contact form -->                                             
+</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sidebox">
+                        <h3 class="sidebox-title">Contact Information</h3>
+                    <p>
+                        </p><address><strong>Your Company, Inc.</strong><br>
+                        Address<br>
+                        City, State, Zip<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890</address> 
+                        <address>  <strong>Email</strong><br>
+                        <a href="mailto:#">first.last@gmail.com</a></address>  
+                    <p></p>     
+                     
+                    </div>
+					</div>
+				</div>
+			</div>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			<!-- start-smoth-scrolling-->
+			<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+					});
+			</script>
+			<!-- //End-smoth-scrolling-->
+		</div>
+		<!--//End-footer-->
+		<!--//End-conatiner-->
+		<script type="text/javascript">
+		/*for responsive video */
+			!function(e,t){for(var i=t.getElementsByTagName("iframe"),a=0;a<i.length;a++){var o=i[a],l=/www.youtube.com|player.vimeo.com/;if(o.src.search(l)>0){var s=o.height/o.width*100;o.style.position="absolute",o.style.top="0",o.style.left="0",o.width="100%",o.height="100%";var r=t.createElement("div");r.className="fluid-vids",r.style.width="100%",r.style.position="relative",r.style.paddingTop=s+"%";var d=o.parentNode;d.insertBefore(r,o),r.appendChild(o)}}}(window,document);
+		/*for responsive video end*/
+		/*for map */
+function initialize() {
+            var mapOptions = {
+                center: new google.maps.LatLng(28.613957, 77.208514),
+                zoom: 16,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: true,
+                draggable: true,
+                panControl: true,
+                zoomControl: true,
+                mapTypeControl: true,
+                scaleControl: true,
+                streetViewControl: true,
+                overviewMapControl: true,
+                rotateControl: true,
+            };
+var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(28.613957, 77.208514)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: "<b>Shri Raj Mata jhande Wala Mandir</b><br/> New Delhi, India 110032"
+        });
+        google.maps.event.addListener(marker, "click", function() {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+        }
+google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</body>
+</html>
+
