@@ -25,6 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    		<!--font-Awesome-->
 		<!--webfonts-->
 		<link href='http://fonts.googleapis.com/css?family=kruti:600,700,800' rel='stylesheet' type='text/css'>
+		
 		<!--//webfonts-->
 		<!--start-top-nav-script-->
 		<script>
@@ -405,7 +406,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  										</div>
                                     </div>
 
-                            	    <div class="col-sm-4" id="carousel-text">
+                            	    <div class="col-sm-4" id="carousel-text" data-toggle="modal" data-target="#activitiesModal">
                                     	<h2>Slider One</h2>
                                     	<p>Lorem Ipsum Dolor</p>
                                     	<p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
@@ -486,33 +487,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!--//End-Share instantly-->
 		<!-- Carousel End -->
 
-		<div class="container">
-		  <h2>Modal Example</h2>
-		  <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+	<div class="modal fade" id="activitiesModal" role="dialog" aria-hidden="true" style="display: none;">
 
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">
-		    <div class="modal-dialog">
-		    
-		      <!-- Modal content-->
-		      <div class="modal-content">
-		        <div class="modal-header">
-		          <button type="button" class="close" data-dismiss="modal">&times;</button>
-		          <h4 class="modal-title">Modal Header</h4>
-		        </div>
-		        <div class="modal-body">
-		          <p>Some text in the modal.</p>
-		        </div>
-		        <div class="modal-footer">
-		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		        </div>
-		      </div>
-		  
-		    </div>
-		  </div>  
-		</div>
-
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">×</button>
+	          <h4 class="modal-title">Modal Header</h4>
+	        </div>
+	        <div class="modal-body">
+	          <img src="images/placehold/book6.png" class="img-responsive">
+	        </div>
+	        <div class="modal-footer">
+	          <p>Some text in the modal.</p>
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
 		<!--start-event-->
 		<div id="events" class="section_spacer">
 			<div class="container">
