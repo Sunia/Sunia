@@ -31,6 +31,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script>
 			$(function() {
 				var pull 		= $('#pull');
+				var menu_tab 	= $('.menu-tab');
 					menu 		= $('nav ul');
 					menuHeight	= menu.height();
 				$(pull).on('click', function(e) {
@@ -43,6 +44,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	        			menu.removeAttr('style');
 	        		}
 	    		});
+
+				$(menu_tab).on('click', function(e) {
+					e.preventDefault();
+				    var w = $(window).width();
+				    if(w > 320 && menu.height() > 100)  {
+	        			menu[0].style.display = "none";
+	        		}
+				});
+
+
 			});
 		</script>
 		<!--//End-top-nav-script-->
@@ -133,14 +144,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<!--start-top-nav-->
 				 		<nav class="top-nav">
 							<ul class="top-nav">
-								<li class="active english"><a href="#" class="scroll">Home</a></li>
-								<li class="page-scroll english"><a href="#aboutUs" class="scroll">About Us</a></li>
-								<li class="page-scroll english"><a href="#history" class="scroll">History</a></li>
-								<li class="page-scroll english"><a href="#news" class="scroll">News</a></li>
-								<li class="page-scroll english"><a href="#activities" class="scroll">Activities</a></li>
-								<li class="page-scroll english" class="page-scroll"><a href="#events" class="scroll">Events</a></li>
-								<li class="page-scroll english"><a href="#books" class="scroll">Books</a></li>
-								<li class="page-scroll english"><a href="#contact" class="scroll">Contact Us</a></li>
+								<li class="active english"><a href="#" class="scroll menu-tab">Home</a></li>
+								<li class="page-scroll english"><a href="#aboutUs" class="scroll menu-tab">About Us</a></li>
+								<li class="page-scroll english"><a href="#history" class="scroll menu-tab">History</a></li>
+								<li class="page-scroll english"><a href="#news" class="scroll menu-tab" id="menu-tab">News</a></li>
+								<li class="page-scroll english"><a href="#activities" class="scroll menu-tab">Activities</a></li>
+								<li class="page-scroll english" ><a href="#events" class="scroll menu-tab">Events</a></li>
+								<li class="page-scroll english" ><a href="#books" class="scroll menu-tab">Books</a></li>
+								<li class="page-scroll english" ><a href="#contact" class="scroll menu-tab">Contact Us</a></li>
 							</ul>
 							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
 				  		</nav>
